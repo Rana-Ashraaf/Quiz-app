@@ -1,0 +1,99 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #efe0df;
+  font-family: sans-serif;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 2em 5em;
+  border-radius: 17px;
+}
+
+.container-left {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 30%;
+  background-image: linear-gradient(19deg, #faaca8 0%, #ddd6f3 100%);
+  min-height: 550px;
+  border-radius: 17px 0px 0px 17px;
+  box-shadow: -15px 10px 28px 5px rgba(170, 170, 170, 0.51);
+  color: white;
+  font-size: 2.5rem;
+  font-weight: bolder;
+  text-shadow: 2px 1px 3px rgba(149, 150, 150, 0.77);
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  width: 50%;
+  min-height: 550px;
+  background-color: white;
+  border-radius: 0px 17px 17px 0px;
+  box-shadow: 15px 10px 28px 5px rgba(170, 170, 170, 0.51);
+  padding-left: 3em;
+}
+
+form .form-feild {
+  margin: 0.9em;
+  display: flex;
+  flex-direction: column;
+}
+
+form .form-feild input {
+  padding: 0.6em 0;
+  padding-left: 1em;
+  padding-right: 2em;
+  width: 300px;
+  border-radius: 10px;
+  border: 1px solid lightgrey;
+  color: gray;
+}
+
+form .form-feild input:focus {
+  outline: none;
+  background-color: rgb(255, 247, 247);
+}
+form .form-feild label {
+  text-align: left;
+  margin-bottom: 0.5em;
+  font-size: 0.9rem;
+  color: #f36962;
+  font-weight: bold;
+}
+::placeholder {
+  opacity: 0.4;
+}
+
+#sign-btn {
+  width: 100px;
+  color: white;
+  font-weight: bold;
+  background-color: #f36962;
+  text-align: center;
+  font-size: 1rem;
+  border: none;
+  transition: 0.2s ease-in-out;
+}
+
+#sign-btn:hover {
+  box-shadow: 0px 0px 43px 0px rgba(243, 105, 98, 1);
+}
+
+footer {
+  text-align: center;
+  margin: auto;
+  font-size: 0.9rem;
+  color: gray;
+}
